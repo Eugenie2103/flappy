@@ -2,17 +2,29 @@ body{
   background-color: grey;
   display: flex;
   justify-content: center;
+
 }
 
 section{
   width: 300px;
-  height: 400px;
+  height: 450px;
   background-image: url(background.png);
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
+  position: relative;
 }
 
 #flappy{
   width: 50px;
+}
+
+#pipe{
+  background-image: url('pipe.png');
+  width: 60px;
+  height: 450px;
+  position: absolute;
+  right: 4%;
+  top: -60%;
 }
