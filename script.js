@@ -48,3 +48,14 @@ $(document).keyup(function(touche){
                 bougerDroite();
            }
 });
+
+
+$("#pipe").animate({
+    marginRight: "+=350px"
+  }, 1800 );
+
+
+  $("#pipe_al").animate({
+      marginRight: "+=350px"
+    }, 1800 );
+  genererObstacle

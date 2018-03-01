@@ -28,3 +28,13 @@ section{
   right: 0;
   top: -60%;
 }
+
+#pipe_al{
+  background-image: url('pipe.png');
+  width: 60px;
+  height: 450px;
+  position: absolute;
+  right: 0;
+  top: -60%;
+  margin-right: -40px;
+}
