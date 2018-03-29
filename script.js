@@ -50,19 +50,14 @@ $(document).keyup(function(touche){
 });
 
 
-$("#pipe").animate({
-    marginRight: "+=350px"
-  }, 1800 );
+function tuyau(){
+    var n = Math.random();
+    n = n * 200;
+    n = n + 200;
+    var n = Math.round(n);
 
-
-  $("#pipe_al").animate({
-      marginRight: "+=350px"
-    }, 1800 );
-
-
-  function getRandomInt(max) {
-    return Math.floor(Math.random() * Math.floor(max));
-  }
-
-  console.log(getRandomInt(3));
-  // expected output: 0, 1 or 2
+    $("#section").append('<div class="pipe" id="pipe"></div>');
+    $(".pipe").css("top","-"+ n+"px");
+    $(".pipe").animate({marginRight:"+=450px"},2000);
+}
+setInterval(tuyau, 2000);

@@ -28,6 +28,7 @@ section{
   position: absolute;
   right: 0;
   top: -60%;
+  margin-right: -40px;
 }
 
 #pipe_al{
